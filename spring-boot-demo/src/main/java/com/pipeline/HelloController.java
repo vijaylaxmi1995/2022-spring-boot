@@ -25,4 +25,9 @@ public class HelloController {
     public String greet(){
         return "Greet Pipeline";
     }
+
+    @GetMapping("/demo")
+    public String demo(){
+        return "Leaning merge conflict";
+    }
 }
