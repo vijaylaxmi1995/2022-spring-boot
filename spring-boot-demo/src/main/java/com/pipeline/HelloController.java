@@ -30,4 +30,9 @@ public class HelloController {
     public String demo(){
         return "Leaning merge conflict";
     }
+
+    @GetMapping("/hello")
+    public String hello123(){
+        return "welcome to hello world";
+    }
 }
